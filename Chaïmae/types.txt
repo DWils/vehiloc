@@ -1,3 +1,0 @@
-1	voiture
-2	utilitaire
-3	vélo
