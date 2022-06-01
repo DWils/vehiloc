@@ -1,3 +1,4 @@
+
 CREATE TABLE vehicules(
     id_vehicule INT Primary key not null,
     marque varchar(50),
