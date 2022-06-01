@@ -1,0 +1,17 @@
+#icone{
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+}
+
+#icone img{
+    margin:  0 50px;
+}
+
+
+#titre_vehicule{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:center
+    
+}
