@@ -268,3 +268,7 @@ line-height: 29px;
     justify-content:center
     
 }
+
+#icone img:hover{
+    box-shadow: 10px 5px 5px rgb(136, 135, 135);
+}
