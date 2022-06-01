@@ -1,3 +1,256 @@
+
+/* partie header */
+
+header{
+    margin: 30px;
+    border: 30px;
+    background-color: #36C4B3;
+}
+#divheader{
+    display: flex;
+    justify-content: space-between;
+}
+#insrpt{
+   
+width: 119px;
+height: 29px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+}
+#lien{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#conx{
+ 
+width: 121px;
+height: 29px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+
+#styl1{
+    font-family: 'Hurricane';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71px;
+   flex-direction: row;
+}
+
+/* réservation */
+
+#element1{
+    
+    width: 971px;
+    height: 580px;
+   
+    
+    }
+    #formul{
+        /* Rectangle 2 */
+    
+    width: 469px;
+    height: 580px;
+  
+    
+    background: rgba(54, 196, 179, 0.25);
+    }
+    
+    #Rect3{
+       
+    width: 355px;
+    height: 472px;
+    
+    background: #FFFFFF;
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    
+    }
+    #tit1{
+       
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+    }
+    #chville{
+        position: relative;
+        left: 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    
+    color: #000000;
+    }
+    
+    #input1{
+    position: absolute;
+    left: 30px;
+    right: 38px;
+    width: 282px;
+    height: 38px;
+    
+    border: #D9D9D9  solid;
+    background: #D9D9D9
+    
+    }
+    #depart{
+        position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 37px;
+    top: 161px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+    }
+    
+    #input2{
+        position: absolute;
+    width: 122px;
+    height: 38px;
+    left: 35px;
+    top: 186px;
+    
+    border: #D9D9D9  solid;
+    background: #D9D9D9;
+    }
+    #input22{
+        position: absolute;
+    width: 122px;
+    height: 38px;
+    left: 195px;
+    top: 186px;
+    
+    border: #D9D9D9  solid;
+    background: #D9D9D9;
+    }
+    
+    #arivee{
+        position: absolute;
+    width: 54px;
+    height: 19px;
+    left: 37px;
+    top: 236px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+    }
+    #input3{
+        position: absolute;
+    width: 122px;
+    height: 38px;
+    left: 35px;
+    top: 259px;
+    
+    border: #D9D9D9  solid;
+    background: #D9D9D9;
+    }
+    #input33{
+        position: absolute;
+    width: 122px;
+    height: 38px;
+    left: 195px;
+    top: 259px;
+    
+    border: #D9D9D9  solid;
+    background: #D9D9D9;
+    }
+    
+    #tvehic{
+        position: absolute;
+    width: 137px;
+    height: 19px;
+    left: 37px;
+    top: 311px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+        
+    }
+    #icon{
+        
+       position: relative;
+    width: 50px;
+    height: 50px;
+    
+    
+    }
+    #conteneur_icon{
+        display: flex;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        
+    width: 180px;
+    height: 33px;
+   
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    
+    background: #36C4B3;
+    border-radius: 13px;
+    border: #36C4B3;
+    
+    }
+
+    btn:hover{
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    #divheader{
+        position: relative;
+        padding: auto;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+
+/* partie nos véhicules */
 #icone{
     display: flex; 
     justify-content: center;
