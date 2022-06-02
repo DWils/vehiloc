@@ -8,25 +8,28 @@
     <title>Vehiloc</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Macondo&family=Smooch&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Inter:wght@100;300&family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Macondo&family=Smooch&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hurricane&family=Inter:wght@100;300&family=Macondo&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- Page d'accueil du site -->
 
     <!-- header -->
-    <header> 
+    <header>
         <div id="container">
             <div id="divheader">
-                 <h1 id="styl1">Véhi'Loc</h1>
-                 <div id="lien">
-                     <a id="insrpt">Inscription</a>
-                     <a id="conx">Connexion</a>
-                 </div>
+                <h1 id="styl1">Véhi'Loc</h1>
+                <div id="lien">
+                    <a id="insrpt">Inscription</a>
+                    <a id="conx">Connexion</a>
+                </div>
             </div>
         </div>
-        </header>
+    </header>
 
     <!-- formulaire de réservation -->
     <div id="reservation">
@@ -34,37 +37,45 @@
             <img src="image/unsplash_pB7bUdsc0FM.png" alt="Car">
         </div>
         <div id="formul">
-        </div>
-        <span id="Rect3">
-            <h1 id="tit1">Réserver Votre Vehicule</h1>
-            <label id="chville" for="chville"> Choisir votre Ville </label><br/>
-            <select id="input1" name="ville">
-                <option value="lille">Lille</option>
-                <option value="Lyon">Lyon</option>
-                <option value="Paris">Paris</option>
-                <option value="Marseille">Marseille</option>
-                <option value="Nante">Nante</option>
-                <option value="La Rochelle"> La Rochelle</option>
-                <option value="Toulouse">Toulouse</option>
-                <option value="Poitiers">Poitiers</option>
-            </select><br/><br/>
-            <label id="depart" for="Depart"> Départ: </label><br/>
-            <input type="date" value="date" id="input2" >
-            <input type="time" value="Time" id="input22">
-            <label id="arivee" for="arrivée"> Arrivée: </label><br/>
-            <input type="date" value="date" id="input3">
-            <input type="time" value="Time" id="input33"><br/>
-            <label id="tvehic" for="type_vehicule">Type de Véhicule:</label>
-            <div id="conteneur_icon">
-                <img id="icon" src="image/voiture.png" alt="car">
-                <img id="icon" src="image/camion.png" alt="truck">
-                <img id="icon" src="image/moto.png" alt="dirt bike">
-                <img id="icon" src="image/velo.png" alt="bike">
-            </div>
-            
-            <button type="click" id="btn"  >Rechercher</button>
+            <div id="Rect3">
+                <div id="remp">
+                    <h1 id="tit1">Réserver Votre Vehicule</h1>
+                    <label id="chville" for="chville"> Choisir votre Ville </label><br />
+                    <select id="input1" name="ville">
+                        <option value="lille">Lille</option>
+                        <option value="Lyon">Lyon</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Marseille">Marseille</option>
+                        <option value="Nante">Nante</option>
+                        <option value="La Rochelle"> La Rochelle</option>
+                        <option value="Toulouse">Toulouse</option>
+                        <option value="Poitiers">Poitiers</option>
+                    </select><br /><br />
+                    <label id="depart" for="Depart"> Départ: </label><br />
+                    <div id="champs-depart">
+                        <input type="date" value="date" id="input2">
+                        <input type="time" value="Time" id="input22">
+                    </div>
 
-        </span>
+                    <label id="arivee" for="arrivée"> Arrivée: </label><br />
+                    <div id="champs-arrivee">
+                        <input type="date" value="date" id="input3">
+                        <input type="time" value="Time" id="input33">
+                    </div>
+
+                    <label id="tvehic" for="type_vehicule">Type de Véhicule:</label>
+                </div>
+
+                <div id="conteneur_icon">
+                    <img id="icon" src="image/voiture.png" alt="car">
+                    <img id="icon" src="image/camion.png" alt="truck">
+                    <img id="icon" src="image/moto.png" alt="dirt bike">
+                    <img id="icon" src="image/velo.png" alt="bike">
+                </div>
+                <button type="click" id="btn">Rechercher</button>
+            </div>
+        </div>
+
     </div>
     </div>
 
@@ -72,7 +83,9 @@
 
     <!-- Les véhicules -->
     <div>
-        <div> <h3 id="titre_vehicule"> Nos gammes de véhicules </h3> </div>
+        <div>
+            <h3 id="titre_vehicule"> Nos gammes de véhicules </h3>
+        </div>
         <div id="icone">
             <img src="image/voiture.png" alt="voiture">
             <img src="image/camion.png" alt="camion">
@@ -81,7 +94,7 @@
         </div>
 
         <div>
-            
+
         </div>
     </div>
 
