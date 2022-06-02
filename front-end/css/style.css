@@ -1,67 +1,76 @@
-
 /* partie header */
 
-body{
+body {
     margin: auto;
     padding: 20px;
-    
+
 }
-#divheader{
+
+#divheader {
     display: flex;
     justify-content: space-between;
 }
-#reservation{
+
+#reservation {
     display: flex;
     justify-content: center;
     align-content: stretch;
-   margin: 0 -50px;
+    margin: 0 -50px;
 }
-#insrpt{
-   
-width: 119px;
-height: 29px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
+
+#insrpt {
+
+    width: 119px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 
 }
-#lien{
+
+#lien {
     display: flex;
     justify-items: center;
     align-items: center;
 }
 
-#conx{
- 
-width: 121px;
-height: 29px;
-
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
+#lien a{
+    margin : 0 10px;
+    cursor: pointer;
 }
 
-#styl1{
+#conx {
+
+    width: 121px;
+    height: 29px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#styl1 {
     font-family: 'Hurricane';
     font-style: normal;
     font-weight: 400;
     font-size: 71px;
-   flex-direction: row;
+    flex-direction: row;
 }
 
 /* réservation */
 
-#element1{
+#element1 {
     width: 971px;
     height: 580px;
-    }
-    #formul{
-        /* Rectangle 2 */
+}
+
+#formul {
+    /* Rectangle 2 */
     display: flex;
     justify-self: start;
     width: 580px;
@@ -71,25 +80,27 @@ line-height: 29px;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: center;
-    }
-    
-    #Rect3{
+}
+
+#Rect3 {
     padding: 30px;
     margin: 20px;
     width: 355px;
     height: 472px;
-    
+
     background: #FFFFFF;
     border: 6px solid rgba(0, 0, 0, 0.1);
     border-radius: 14px;
-    
-    }
-    #remp{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    }
-    #tit1{
+
+}
+
+#remp {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#tit1 {
     margin-bottom: 40px;
     font-family: 'Inter';
     font-style: normal;
@@ -97,96 +108,103 @@ line-height: 29px;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    
+
     color: #000000;
-    }
-    #chville{    
+}
+
+#chville {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-    }
-    
-    #input1{
-    
+}
+
+#input1 {
+
     height: 38px;
     margin-bottom: 40px;
-    border: #D9D9D9  solid;
+    border: #D9D9D9 solid;
     background: #D9D9D9
-    
-    }
-    #depart{
+}
+
+#depart {
     width: 52px;
     height: 19px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    
+
     color: #000000;
-    
-    }
-    
-    #input2{
-     
+
+}
+
+#input2 {
+
     width: 122px;
     height: 38px;
-    
-    border: #D9D9D9  solid;
+
+    border: #D9D9D9 solid;
     background: #D9D9D9;
-    }
-    #input22{
+}
+
+#input22 {
     width: 122px;
     height: 38px;
-    
-    
-    border: #D9D9D9  solid;
+
+
+    border: #D9D9D9 solid;
     background: #D9D9D9;
-    }
-    #champs-depart, #champs-arrivee{
-        display: flex;
-        justify-content: space-between;
-    }
-    #arivee{
-    
+}
+
+#champs-depart,
+#champs-arrivee {
+    display: flex;
+    justify-content: space-between;
+}
+
+#arivee {
+
     margin-top: 20px;
     width: 54px;
     height: 19px;
-   
-        
+
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    
+
     color: #000000;
-    
-    }
-    #input3{
-      
+
+}
+
+#input3 {
+
     width: 122px;
     height: 38px;
-    
-    border: #D9D9D9  solid;
+
+    border: #D9D9D9 solid;
     background: #D9D9D9;
-    }
-    #input33{
-       
+}
+
+#input33 {
+
     width: 122px;
     height: 38px;
-   
-    
-    border: #D9D9D9  solid;
+
+
+    border: #D9D9D9 solid;
     background: #D9D9D9;
-    }
-    
-    #tvehic{
-        
+}
+
+#tvehic {
+
     width: 137px;
     height: 19px;
     margin-top: 20px;
@@ -195,88 +213,89 @@ line-height: 29px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    
+
     color: #000000;
-    
-        
-    }
-    #icon{
+
+
+}
+
+#icon {
     width: 50px;
     height: 50px;
-    
-    
-    }
-    #conteneur_icon{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        justify-content:space-around;
-    }
-    
-    #btn{
-    margin:auto;   
+
+
+}
+
+#conteneur_icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    margin: auto;
     width: 180px;
     height: 33px;
-   
-    
+
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    
+
     color: #FFFFFF;
-    
+
     background: #36C4B3;
     border-radius: 13px;
     border: #36C4B3;
-   
+
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    
-    }
 
-    btn:hover{
-        box-shadow: 5px 5px 5px grey;
-    }
+}
 
-    #divheader{
-       
-        padding: auto;
-        display: flex;
-        justify-content:space-between;
-    }
-    
+btn:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+#divheader {
+
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* partie nos véhicules */
-#icone{
-    display: flex; 
+#icone {
+    display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
-#icone img{
-    margin:  0 50px;
+#icone img {
+    margin: 0 50px;
 }
 
 
-#titre_vehicule{
+#titre_vehicule {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content:center
-    
+    flex-wrap: wrap;
+    justify-content: center
 }
 
-<<<<<<< HEAD
-#Bilel{
+#liste-vehicule {
     display: flex;
-justify-content: space-around;
-margin-top: 60px;
-=======
-#icone img:hover{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+#icone img:hover {
     box-shadow: 10px 5px 5px rgb(136, 135, 135);
->>>>>>> b8d1c9eb1e64284c165cc03c81445ba332952ea2
 }
